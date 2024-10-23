@@ -1,0 +1,3 @@
+Dag 1:
+- Skapat filer och git-repo för filhantering.
+- Påbörjat skissande av projektmall.
