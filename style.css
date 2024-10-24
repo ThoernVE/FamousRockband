@@ -1,4 +1,4 @@
-.picture_size{
+.profileimg{
     height: 300px;
     width: 200px;
 }
@@ -6,3 +6,25 @@
 aside{
     display: block;
 }
+
+.townimg{
+    height: 300px;
+    width: 400px;
+}
+
+header{
+    color: white;
+    height: 400px;
+    background-position-x: center;
+    background-image: url(img/Linkinpark.webp);
+    background-repeat: no-repeat;
+    background-color: black;
+    
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 200px;
+}
+
