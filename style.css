@@ -15,7 +15,7 @@ header{
 
 body{
     color:aliceblue;
-    background-color: darkolivegreen;
+    background-color: rgba(84, 109, 42, 0.514);
 }
 
 footer{
@@ -63,11 +63,6 @@ input{
     margin-bottom: 0;
 }
 
-.headertable{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .header_container{
     display: flex;
