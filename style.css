@@ -1,3 +1,7 @@
+html{
+    background-color: black;
+}
+
 .profileimg{
     height: 300px;
     width: 200px;
@@ -18,13 +22,24 @@ header{
     background-position-x: center;
     background-image: url(img/Linkinpark.webp);
     background-repeat: no-repeat;
-    background-color: black;
-    
+    background-color: black;  
 }
+
+
 
 footer{
     background-color: black;
     color: white;
     height: 200px;
 }
+
+input{
+    margin: 10px;
+}
+
+body{
+    color:aliceblue;
+    background-color: darkolivegreen;
+}
+
 
