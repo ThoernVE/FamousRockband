@@ -73,6 +73,10 @@ address{
     width: 400px;
 }
 
+.review_picture{
+    height: 220px;
+    width: 200px;
+}
 
 
 .header_container {
