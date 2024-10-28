@@ -154,6 +154,14 @@ address{
         margin-right: 20px;
     }
 
+    summary{
+        font-size: 20px;
+    }
+
+    label{
+        font-size: 20px;
+    }
+
     .townimg{
         width: 100%;
     }
@@ -177,8 +185,5 @@ address{
         font-size: 10px;
     }
 
-    summary{
-        font-size: 20px;
-    }
 
 }

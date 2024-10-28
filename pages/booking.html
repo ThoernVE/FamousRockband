@@ -28,18 +28,18 @@
     <h2>Welcome to the booking page!</h2>
     <h3>Please fill out the form below to send a booking request</h3>
     <form method="get">
-        <label for="firstname"><p>First name</p></label>
+        <br><label for="firstname">First name</label><br>
         <input type="text" name="firstname" placeholder="First name..." id="firstname" required><br>
-        <label for="lastname"><p>Last name</p></label>
+        <br><label for="lastname">Last name</label><br>
         <input type="text" name="lastname" placeholder="Last name..." id="lastname" required><br>
-        <label for="telephonenumber"><p>Telephone number</p></label>
+        <br><label for="telephonenumber">Telephone number</label><br>
         +<input type="tel" name="telephonenumber" placeholder="46..." pattern="[0-9, +] {9}" id="telephonenumber"><br>
-        <label for="email"><p>E-mail adress</p></label>
+        <br><label for="email">E-mail adress</label><br>
         <input type="email" name="email" placeholder="...@emailprovider.com" required id="email"><br>
-        <label for="address"><p>Address</p></label>
+        <br><label for="address">Address</label><br>
         <input type="text" name="address" required id="address"><br>
-        <label for="datebooked"><p>Please click the box below to choose the date you want to book</p></label>
-        <input type="date" name="datebooked" placeholder="8/11" required id="datebooked"><br>
+        <br><label for="datebooked">Please click the box below to choose the date you want to book</label><br>
+        <input type="date" name="datebooked" required id="datebooked"><br>
         <input type="submit" name="submitinfo" value="Send Request">
     </form>
     <footer>
