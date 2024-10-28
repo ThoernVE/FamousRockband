@@ -1,8 +1,0 @@
-Dag 1:
-- Skapat filer och git-repo för filhantering.
-- Påbörjat skissande av projektmall.
-- avslutat skiss, skapat head, header och footer
-- skapat index.html, about.html, showdates.html, booking.html.
-- Skapat en style.css som länkats.
-- lagt in bilder på bandmedlemmar i about.html. Även lagt in kontaktinformation och karta.
-- Fixat storlekar på bilder i about.html med en klass
