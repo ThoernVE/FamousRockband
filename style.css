@@ -147,7 +147,11 @@ address{
         height: 40px;
         width: 300px;
         font-size: 20px;;
-        
+    }
+
+    a{
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .townimg{

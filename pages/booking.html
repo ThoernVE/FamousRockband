@@ -28,18 +28,18 @@
     <h2>Welcome to the booking page!</h2>
     <h3>Please fill out the form below to send a booking request</h3>
     <form method="get">
-        <p>First name</p>
-        <input type="text" name="firstname" placeholder="First name..." required><br>
-        <p>Last name</p>
-        <input type="text" name="lastname" placeholder="Last name..." required><br>
-        <p>Telephone number</p>
-        +<input type="tel" name="telephonenumber" placeholder="46..." pattern="[0-9, +] {9}"><br>
-        <p>E-mail adress</p>
-        <input type="email" name="email" placeholder="...@emailprovider.com" required><br>
-        <p>Address</p>
-        <input type="text" name="address" required><br>
-        <p>Please click the box below to choose the date you want to book</p>
-        <input type="date" name="datebooked" placeholder="8/11" required><br>
+        <label for="firstname"><p>First name</p></label>
+        <input type="text" name="firstname" placeholder="First name..." id="firstname" required><br>
+        <label for="lastname"><p>Last name</p></label>
+        <input type="text" name="lastname" placeholder="Last name..." id="lastname" required><br>
+        <label for="telephonenumber"><p>Telephone number</p></label>
+        +<input type="tel" name="telephonenumber" placeholder="46..." pattern="[0-9, +] {9}" id="telephonenumber"><br>
+        <label for="email"><p>E-mail adress</p></label>
+        <input type="email" name="email" placeholder="...@emailprovider.com" required id="email"><br>
+        <label for="address"><p>Address</p></label>
+        <input type="text" name="address" required id="address"><br>
+        <label for="datebooked"><p>Please click the box below to choose the date you want to book</p></label>
+        <input type="date" name="datebooked" placeholder="8/11" required id="datebooked"><br>
         <input type="submit" name="submitinfo" value="Send Request">
     </form>
     <footer>
